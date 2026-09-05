@@ -82,6 +82,19 @@ function library:set_draggable(gui)
 end
 
 function library.new(library_title, cfg_location)
+    pcall(function()
+        local holders = {}
+        if typeof(gethui) == "function" then table.insert(holders, gethui()) end
+        if typeof(get_hidden_gui) == "function" then table.insert(holders, get_hidden_gui()) end
+        table.insert(holders, game:GetService("CoreGui"))
+        local plr = game:GetService("Players").LocalPlayer
+        if plr then table.insert(holders, plr:WaitForChild("PlayerGui")) end
+        for _,h in pairs(holders) do
+            for _,v in pairs(h:GetChildren()) do
+                if v.Name == "unknown" then v:Destroy() end
+            end
+        end
+    end)
     local menu = {}
     menu.values = {}
     menu.on_load_cfg = library.signal.new("on_load_cfg")
