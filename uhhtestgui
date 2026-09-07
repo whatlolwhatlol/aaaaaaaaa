@@ -218,14 +218,14 @@ local function createOriginialElements()
 		local tabsUIListLayout = Instance.new("UIListLayout")
 		local pageLogo = Instance.new("ImageLabel")
 		
-		screenGui.Name = "Cerberus"
+		screenGui.Name = '+_-"'
 		screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 		screenGui.IgnoreGuiInset = true
 		
 		background.Name = "Background"
 		background.Parent = screenGui
 		background.AnchorPoint = Vector2.new(0.5, 0.5)
-		background.BackgroundColor3 = Color3.fromRGB(24, 25, 32)
+		background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		background.BorderSizePixel = 0
 		background.ClipsDescendants = true
 		background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -243,7 +243,7 @@ local function createOriginialElements()
 		
 		heading.Name = "Heading"
 		heading.Parent = background
-		heading.BackgroundColor3 = Color3.fromRGB(40, 41, 52)
+		heading.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		heading.BorderSizePixel = 0
 		heading.Size = UDim2.new(1, 0, 0.0500000007, 0)
 		heading.AutoButtonColor = false
@@ -322,7 +322,7 @@ local function createOriginialElements()
 		headingCornerHiding.Name = "HeadingCornerHiding"
 		headingCornerHiding.Parent = heading
 		headingCornerHiding.AnchorPoint = Vector2.new(0, 1)
-		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(40, 41, 52)
+		headingCornerHiding.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		headingCornerHiding.BorderSizePixel = 0
 		headingCornerHiding.Position = UDim2.new(0, 0, 1, 0)
 		headingCornerHiding.Size = UDim2.new(1, 0, 0.25, 0)
@@ -330,7 +330,7 @@ local function createOriginialElements()
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(131, 39, 45)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0.100000001, 0)
@@ -342,7 +342,7 @@ local function createOriginialElements()
 		title.Size = UDim2.new(0.25, 0, 0.899999976, 0)
 		title.Font = Enum.Font.GothamBold
 		title.LineHeight = 0.800
-		title.Text = "Cerberus"
+		title.Text = '+_-"'
 		title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		title.TextSize = 14.000
 		title.TextXAlignment = Enum.TextXAlignment.Left
@@ -363,7 +363,7 @@ local function createOriginialElements()
 		tabs.Parent = holder
 		tabs.Active = true
 		tabs.AnchorPoint = Vector2.new(0, 1)
-		tabs.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		tabs.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		tabs.BorderSizePixel = 0
 		tabs.Position = UDim2.new(0, 5, 1, -5)
 		tabs.Size = UDim2.new(0.225, 0, 1, -15)
@@ -400,7 +400,7 @@ local function createOriginialElements()
 		local tabSeperatorUICorner = Instance.new("UICorner")
 
 		tab.Name = "Tab"
-		tab.BackgroundColor3 = Color3.fromRGB(37, 37, 51)
+		tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		tab.BackgroundTransparency = 1.000
 		tab.BorderSizePixel = 0
 		tab.Size = UDim2.new(1, 0, 0, 27.5)
@@ -441,7 +441,7 @@ local function createOriginialElements()
 
 		tabSeperator.Name = "TabSeperator"
 		tabSeperator.Parent = tab
-		tabSeperator.BackgroundColor3 = Color3.fromRGB(255, 6, 4)
+		tabSeperator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		tabSeperator.BackgroundTransparency = 0
 		tabSeperator.BorderColor3 = Color3.fromRGB(27, 42, 53)
 		tabSeperator.BorderSizePixel = 0
@@ -463,7 +463,7 @@ local function createOriginialElements()
 
 		page.Name = "Page"
 		page.AnchorPoint = Vector2.new(1, 1)
-		page.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		page.BackgroundTransparency = 1.000
 		page.BorderSizePixel = 0
 		page.Position = UDim2.new(1, -10, 1, -5)
@@ -472,7 +472,7 @@ local function createOriginialElements()
 
 		leftScrollingFrame.Name = "LeftScrollingFrame"
 		leftScrollingFrame.Active = true
-		leftScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		leftScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		leftScrollingFrame.BackgroundTransparency = 1.000
 		leftScrollingFrame.Size = UDim2.new(0.5, -5, 1, 0)
 		leftScrollingFrame.ScrollBarThickness = 0
@@ -487,7 +487,7 @@ local function createOriginialElements()
 		rightScrollingFrame.Name = "RightScrollingFrame"
 		rightScrollingFrame.Active = true
 		rightScrollingFrame.AnchorPoint = Vector2.new(1, 0)
-		rightScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		rightScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		rightScrollingFrame.BackgroundTransparency = 1.000
 		rightScrollingFrame.Position = UDim2.new(1, 0, 0, 0)
 		rightScrollingFrame.Size = UDim2.new(0.5, -5, 1, 0)
@@ -516,21 +516,21 @@ local function createOriginialElements()
 		local elementHolderPadding = Instance.new("UIPadding")
 
 		section.Name = "Section"
-		section.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		section.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		section.BorderSizePixel = 0
 		section.Size = UDim2.new(1, 0, 0, 200)
 		section.ClipsDescendants = true
 
 		heading.Name = "Heading"
 		heading.Parent = section
-		heading.BackgroundColor3 = Color3.fromRGB(40, 41, 52)
+		heading.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		heading.BorderSizePixel = 0
 		heading.Size = UDim2.new(1, 0, 0, 22)
 
 		headingSeperator.Name = "HeadingSeperator"
 		headingSeperator.Parent = heading
 		headingSeperator.AnchorPoint = Vector2.new(0, 1)
-		headingSeperator.BackgroundColor3 = Color3.fromRGB(163, 33, 38)
+		headingSeperator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		headingSeperator.BorderSizePixel = 0
 		headingSeperator.Position = UDim2.new(0, 0, 1, 0)
 		headingSeperator.Size = UDim2.new(1, 0, 0, 2)
@@ -602,7 +602,7 @@ local function createOriginialElements()
 		titleText.Name = "TitleText"
 		titleText.Parent = title
 		titleText.AnchorPoint = Vector2.new(0.5, 0)
-		titleText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		titleText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		titleText.BorderSizePixel = 0
 		titleText.Position = UDim2.new(0.5, 0, 0, 0)
 		titleText.Size = UDim2.new(0.200000003, 0, 1, 0)
@@ -620,7 +620,7 @@ local function createOriginialElements()
 		design.Position = UDim2.new(0, 0, 0.5, 0)
 		design.Size = UDim2.new(1, 0, 0.25, 0)
 
-		designGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(31, 31, 43)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(163, 33, 38)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(31, 31, 43))}
+		designGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 		designGradient.Name = "DesignGradient"
 		designGradient.Parent = design
 
@@ -656,7 +656,7 @@ local function createOriginialElements()
 		labelText.Name = "LabelText"
 		labelText.Parent = labelBackground
 		labelText.AnchorPoint = Vector2.new(0.5, 0)
-		labelText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		labelText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		labelText.BorderSizePixel = 0
 		labelText.Position = UDim2.new(0.5, 0, 0, 0)
 		labelText.Size = UDim2.new(1, 0, 1, 0)
@@ -754,7 +754,7 @@ local function createOriginialElements()
 		centerBox.Name = "CenterBox"
 		centerBox.Parent = innerBox
 		centerBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		centerBox.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		centerBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		centerBox.BorderSizePixel = 0
 		centerBox.Position = UDim2.new(0.5, 0, 0.5, 0)
 		centerBox.Size = UDim2.new(1, 0, 1, 0)
@@ -762,12 +762,12 @@ local function createOriginialElements()
 		toggleImage.Name = "ToggleImage"
 		toggleImage.Parent = centerBox
 		toggleImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		toggleImage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		toggleImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		toggleImage.BackgroundTransparency = 0
 		toggleImage.BorderSizePixel = 0
 		toggleImage.Position = UDim2.new(0.5, 0, 0.5, 0)
 		toggleImage.Image = "rbxassetid://11444348176"
-		toggleImage.ImageColor3 = Color3.fromRGB(31, 31, 43)
+		toggleImage.ImageColor3 = Color3.fromRGB(0, 0, 0)
 		
 		toggleImageCorner.Name = "ToggleImageCorner"
 		toggleImageCorner.CornerRadius = UDim.new(.5,0)
@@ -857,7 +857,7 @@ local function createOriginialElements()
 		centerCircle.Name = "CenterCircle"
 		centerCircle.Parent = innerCircle
 		centerCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-		centerCircle.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		centerCircle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		centerCircle.BorderSizePixel = 0
 		centerCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
 		centerCircle.Size = UDim2.new(1, 0, 1, 0)
@@ -877,7 +877,7 @@ local function createOriginialElements()
 		buttonCircle.Parent = centerCircle
 		buttonCircle.AnchorPoint = Vector2.new(.5,.5)
 		buttonCircle.BorderSizePixel = 0
-		buttonCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		buttonCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		buttonCircle.Size = UDim2.new(0, 0, 0, 0)
 		buttonCircle.Position = UDim2.fromScale(.5,.5)
 
@@ -975,7 +975,7 @@ local function createOriginialElements()
 
 		buttonInnerBackground.Name = "ButtonInnerBackground"
 		buttonInnerBackground.Parent = buttonBackground
-		buttonInnerBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		buttonInnerBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		buttonInnerBackground.BorderSizePixel = 0
 		buttonInnerBackground.Size = UDim2.new(1, 0, 1, 0)
 		buttonInnerBackground.ZIndex = 0
@@ -1005,7 +1005,7 @@ local function createOriginialElements()
 
 		elementHolderInnerBackground.Name = "ElementHolderInnerBackground"
 		elementHolderInnerBackground.Parent = elementHolderBackground
-		elementHolderInnerBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		elementHolderInnerBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		elementHolderInnerBackground.BorderSizePixel = 0
 		elementHolderInnerBackground.Size = UDim2.new(1, 0, 1, 0)
 
@@ -1128,14 +1128,14 @@ local function createOriginialElements()
 
 		emptySliderBackground.Name = "EmptySliderBackground"
 		emptySliderBackground.Parent = sliderInnerBackground
-		emptySliderBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		emptySliderBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		emptySliderBackground.BorderSizePixel = 0
 		emptySliderBackground.Size = UDim2.new(1, 0, 1, 0)
 		emptySliderBackground.ZIndex = 0
 
 		slider.Name = "Slider"
 		slider.Parent = sliderInnerBackground
-		slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		slider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		slider.BorderSizePixel = 0
 		slider.Size = UDim2.new(0, 2, 1, 0)
 
@@ -1199,7 +1199,7 @@ local function createOriginialElements()
 		searchBox.Name = "SearchBox"
 		searchBox.Parent = buttonBackgroundPadding
 		searchBox.Active = false
-		searchBox.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		searchBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		searchBox.BackgroundTransparency = 1
 		searchBox.BorderSizePixel = 0
 		searchBox.Size = UDim2.new(1, 0, 1, 0)
@@ -1217,7 +1217,7 @@ local function createOriginialElements()
 		
 		searchBoxBackground.Name = "SearchBoxBackground"
 		searchBoxBackground.Parent = buttonBackgroundPadding
-		searchBoxBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		searchBoxBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		searchBoxBackground.BorderSizePixel = 0
 		searchBoxBackground.Size = UDim2.new(1, 0, 1, 0)
 		searchBoxBackground.ZIndex = 0
@@ -1225,7 +1225,7 @@ local function createOriginialElements()
 		searchImage.Name = "SearchImage"
 		searchImage.Parent = buttonBackgroundPadding
 		searchImage.AnchorPoint = Vector2.new(1, 0.5)
-		searchImage.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		searchImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		searchImage.BackgroundTransparency = 1
 		searchImage.BorderSizePixel = 0
 		searchImage.Position = UDim2.new(1, 0, 0.5, 0)
@@ -1260,7 +1260,7 @@ local function createOriginialElements()
 
 		elementHolderInnerBackground.Name = "ElementHolderInnerBackground"
 		elementHolderInnerBackground.Parent = elementHolderBackground
-		elementHolderInnerBackground.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		elementHolderInnerBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		elementHolderInnerBackground.BorderSizePixel = 0
 		elementHolderInnerBackground.Visible = false
 		elementHolderInnerBackground.Size = UDim2.new(1, 0, 1, 0)
@@ -1361,7 +1361,7 @@ local function createOriginialElements()
 
 		keyText.Parent = innerBox
 		keyText.Name = "KeyText"
-		keyText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		keyText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		keyText.BorderSizePixel = 0
 		keyText.Size = UDim2.new(1, 0, 1, 0)
 		keyText.Font = Enum.Font.Gotham
@@ -1436,7 +1436,7 @@ local function createOriginialElements()
 
 		textBoxText.Name = "TextBoxText"
 		textBoxText.Parent = innerBox
-		textBoxText.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		textBoxText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		textBoxText.BorderSizePixel = 0
 		textBoxText.ClipsDescendants = true
 		textBoxText.Size = UDim2.new(1, 0, 1, 0)
@@ -1572,7 +1572,7 @@ local function createOriginialElements()
 		centerBox.Name = "CenterBox"
 		centerBox.Parent = innerBox
 		centerBox.AnchorPoint = Vector2.new(1, 0)
-		centerBox.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		centerBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		centerBox.BorderSizePixel = 0
 		centerBox.Position = UDim2.new(1, 0, 0, 0)
 		centerBox.Size = UDim2.new(1, 0, 1, 0)
@@ -1695,7 +1695,7 @@ local function createOriginialElements()
 
 		colorValue.Name = "ColorValue"
 		colorValue.Parent = innerBox_2
-		colorValue.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		colorValue.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		colorValue.BorderSizePixel = 0
 		colorValue.ClipsDescendants = true
 		colorValue.Size = UDim2.new(1, 0, 1, 0)
@@ -1757,7 +1757,7 @@ local function createOriginialElements()
 
 		colorValue_2.Name = "ColorValue"
 		colorValue_2.Parent = innerBox_3
-		colorValue_2.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		colorValue_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		colorValue_2.BorderSizePixel = 0
 		colorValue_2.ClipsDescendants = true
 		colorValue_2.Size = UDim2.new(1, 0, 1, 0)
@@ -1819,7 +1819,7 @@ local function createOriginialElements()
 
 		colorValue_3.Name = "ColorValue"
 		colorValue_3.Parent = innerBox_4
-		colorValue_3.BackgroundColor3 = Color3.fromRGB(31, 31, 43)
+		colorValue_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		colorValue_3.BorderSizePixel = 0
 		colorValue_3.ClipsDescendants = true
 		colorValue_3.Size = UDim2.new(1, 0, 1, 0)
@@ -1864,7 +1864,7 @@ local function createOriginialElements()
 
 		sliderBar.Name = "SliderBar"
 		sliderBar.Parent = valueSlider
-		sliderBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		sliderBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		sliderBar.BorderSizePixel = 0
 		sliderBar.Size = UDim2.new(0, 3, 1, 0)
 
@@ -2068,7 +2068,7 @@ function Library.new(windowName: string, constrainToScreen: boolean?, width: num
 		holder.Tabs.CanvasSize = UDim2.fromOffset(0,holder.Tabs.TabsUIListLayout.AbsoluteContentSize.Y + holder.Tabs.TabsUIListLayout.Padding.Offset)
 	end)
 
-	heading.Title.Text = windowName or "Cerberus"
+	heading.Title.Text = windowName or '+_-"'
 	windowInstance.Parent = game:GetService("CoreGui") -- Change to core later on and add detection bypass
 	background.Size = UDim2.fromOffset(background.AbsoluteSize.X, background.AbsoluteSize.Y)
 	
